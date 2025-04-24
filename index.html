@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할일 관리 앱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>할일 관리</h1>
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="새로운 할일을 입력하세요">
+            <button id="addTask">추가</button>
+        </div>
+        <div class="todo-filters">
+            <button class="filter-btn active" data-filter="all">전체</button>
+            <button class="filter-btn" data-filter="active">진행중</button>
+            <button class="filter-btn" data-filter="completed">완료</button>
+        </div>
+        <ul id="todoList" class="todo-list">
+            <!-- 할일 항목들이 여기에 추가됩니다 -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
